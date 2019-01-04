@@ -1,0 +1,72 @@
+body {
+
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.points {
+  font-size: 1rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-align: center;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#trash-area {
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+#can-area {
+  min-height: 150px;
+  position: relative;
+}
+
+.trash-can {
+  width: 15%;
+  position: absolute;
+}
+
+#banana {
+  width: 10%;
+  position: absolute;
+  z-index: +1;
+}
+
+#bottle {
+  width:20%;
+  position: absolute;
+  z-index: +1;
+}
+
+#eggshells {
+  width: 15%;
+  position: absolute;
+  z-index: +1;
+}
+
+#phone {
+  width: 15%;
+  position: absolute;
+  z-index: +1;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  text-align: center;
+}
